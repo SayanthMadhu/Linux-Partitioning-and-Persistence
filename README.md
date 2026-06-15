@@ -20,9 +20,9 @@ Explanation:
 - fdisk -l lists all available disks and partitions in the system.
 - From the output, select an unused disk such as /dev/sdb.
 
-Example Output:
+Output:
 
-Disk /dev/sdb: 10 GiB
+
 
 Here /dev/sdb is selected for partition creation.
 
