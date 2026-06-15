@@ -21,7 +21,8 @@ Explanation:
 - From the output, select an unused disk such as /dev/sdb.
 
 Output:
-Screenshot 2026-06-15 072445.png
+<img width="752" height="342" alt="Screenshot 2026-06-15 072445" src="https://github.com/user-attachments/assets/8ce960d6-cbdf-421f-adef-3e3c6b6f2826" />
+
 
 
 Here /dev/sdb is selected for partition creation.
