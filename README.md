@@ -312,18 +312,6 @@ cat /mnt/mypartition/address
 
 -------------------------------------------------------------------
 
-Contents of /etc/fstab
-
-UUID=1234-abcd-5678-efgh   /mnt/mypartition   ext3   defaults   0   0
-
--------------------------------------------------------------------
-
-Output of ls /mnt/mypartition After Reboot
-
-address
-
--------------------------------------------------------------------
-
 Conclusion
 
 Successfully created a new partition, formatted it with ext3 filesystem, mounted it to /mnt/mypartition, created a file containing a fake address, configured automatic mounting using /etc/fstab, and verified that the data persists after reboot.
