@@ -196,7 +196,7 @@ sudo nano /etc/fstab
 
 Add the following line at the end of the file:
 
-UUID=1234-abcd-5678-efgh   /mnt/mypartition   ext3   defaults   0   0
+UUID=a1274c89-b68f-489f-b370-bbdf30a0f44d   /mnt/mypartition   ext3   defaults   0   0
 
 Explanation:
 
@@ -222,6 +222,9 @@ Explanation:
 
 - mount -a mounts all filesystems listed in /etc/fstab.
 - If there is no error, the configuration is correct.
+OUTPUT:
+<img width="600" height="67" alt="image" src="https://github.com/user-attachments/assets/4caef233-2ea2-4a29-8896-0751454dd1b0" />
+
 
 -------------------------------------------------------------------
 
@@ -243,9 +246,9 @@ Command:
 
 df -h
 
-Example Output:
+Output:
 
-/dev/sdb1   9.8G   24M   9.2G   1%   /mnt/mypartition
+<img width="667" height="277" alt="image" src="https://github.com/user-attachments/assets/62b7c552-3cf8-4052-b699-34ae8fc0d441" />
 
 This confirms the partition mounted automatically after reboot.
 
@@ -259,9 +262,10 @@ Command:
 
 ls /mnt/mypartition
 
-Output:
+OUTPUTt:
+<img width="365" height="47" alt="image" src="https://github.com/user-attachments/assets/5a4baca5-88bd-467a-8e5b-2c774eea9924" />
 
-address
+
 
 View file contents.
 
@@ -269,13 +273,10 @@ Command:
 
 cat /mnt/mypartition/address
 
-Output:
+OUTPUT:
+<img width="396" height="107" alt="image" src="https://github.com/user-attachments/assets/c5baa5c8-49a3-4e2c-b1b5-d5bc28e31059" />
 
-Aryasree
-Green Villa
-Kannur, Kerala
-PIN: 670001
-India
+
 
 This confirms the data persists after reboot.
 
