@@ -57,6 +57,9 @@ Explanation:
 - w → Save changes and exit
 
 After this, the new partition /dev/sdb1 will be created.
+OUTPUT :
+<img width="707" height="797" alt="image" src="https://github.com/user-attachments/assets/60ad79a2-519e-4393-9db2-e8809cafa54b" />
+
 
 -------------------------------------------------------------------
 
