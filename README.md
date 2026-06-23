@@ -1,4 +1,4 @@
-# Linux-Partitioning-and-Persistence
+
 # Linux Partitioning and Persistence Assignment
 
 ## Objective
@@ -312,6 +312,6 @@ cat /mnt/mypartition/address
 
 -------------------------------------------------------------------
 
-Conclusion
+## Conclusion
 
 Successfully created a new partition, formatted it with ext3 filesystem, mounted it to /mnt/mypartition, created a file containing a fake address, configured automatic mounting using /etc/fstab, and verified that the data persists after reboot.
