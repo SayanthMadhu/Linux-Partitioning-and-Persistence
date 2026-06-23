@@ -21,7 +21,8 @@ Explanation:
 - From the output, select an unused disk such as /dev/sdb.
 
 Output:
-<img width="752" height="342" alt="Screenshot 2026-06-15 072445" src="https://github.com/user-attachments/assets/8ce960d6-cbdf-421f-adef-3e3c6b6f2826" />
+<img width="542" height="336" alt="image" src="https://github.com/user-attachments/assets/18a90b0d-f3da-4e4e-85ab-b8a661be7eab" />
+
 
 
 
