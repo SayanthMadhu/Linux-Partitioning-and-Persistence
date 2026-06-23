@@ -20,7 +20,7 @@ Explanation:
 - fdisk -l lists all available disks and partitions in the system.
 - From the output, select an unused disk such as /dev/sdb.
 
-Output:
+OUTPUT:
 <img width="542" height="336" alt="image" src="https://github.com/user-attachments/assets/18a90b0d-f3da-4e4e-85ab-b8a661be7eab" />
 
 
@@ -76,10 +76,9 @@ Explanation:
 - mkfs.ext3 creates an ext3 filesystem on the partition.
 - /dev/sdb1 is the newly created partition.
 
-Example Output:
+OUTPUT :
+<img width="560" height="202" alt="image" src="https://github.com/user-attachments/assets/b8b3cc42-70c9-4755-8338-af9eee44589b" />
 
-Creating filesystem with 2621440 4k blocks
-Filesystem UUID: 1234-abcd
 
 -------------------------------------------------------------------
 
@@ -95,6 +94,7 @@ Explanation:
 
 - mkdir creates a directory.
 - -p ensures the full path is created if it does not already exist.
+
 
 -------------------------------------------------------------------
 
@@ -114,9 +114,9 @@ Verify Mount:
 
 df -h
 
-Example Output:
+OUTPUT :
+<img width="712" height="225" alt="image" src="https://github.com/user-attachments/assets/240c4b33-7a32-46fd-aa89-3c633ac9e3ac" />
 
-/dev/sdb1   9.8G   24M   9.2G   1%   /mnt/mypartition
 
 This confirms the partition is mounted successfully.
 
@@ -159,9 +159,9 @@ Command:
 
 ls /mnt/mypartition
 
-Output:
+OUTPUT :
+<img width="295" height="47" alt="image" src="https://github.com/user-attachments/assets/68f0ffc2-a826-405d-a8fe-65a937792291" />
 
-address
 
 -------------------------------------------------------------------
 
@@ -173,9 +173,11 @@ Command:
 
 sudo blkid /dev/sdb1
 
-Example Output:
+OUTPUT :
+<img width="877" height="47" alt="image" src="https://github.com/user-attachments/assets/7bcf2f73-271a-4453-836d-d592c567d76f" />
 
-/dev/sdb1: UUID="1234-abcd-5678-efgh" TYPE="ext3"
+
+
 
 Explanation:
 
